@@ -1,0 +1,44 @@
+{
+  "config": {
+    "url": "http://192.168.10.205:25085/webapi_config/api/ConfigEntity/",
+    "data_path": "../assert",
+    "node_shp": "tm_men_Net_Junctions",
+    "link_shp": "tm_men_aat",
+    "m_duratioin": 86400,
+    "hyd_step": 300,
+    "online_compute_step": 900,
+    "api_port": 25091,
+    "waterpath_alarm": 4,
+    "pressalarm_days": 7,
+    "SRID": 300002,
+    "SetType": 1,
+    "result_step": 1800,
+    "QDuration": 432000,
+    "QSecond": 3600,
+    "demo_date": "2019-08-11"
+  },
+  "sys": {
+    "app_name": "dma",
+    "log_level": "DEBUG",
+    "redis": "redis://127.0.0.1:6379/0",
+    "mongodb": {
+      "host": "127.0.0.1",
+      "username": "",
+      "password": ""
+    },
+    "zlsdb": {
+      "host": "192.168.10.205",
+      "port": 1521,
+      "database": "server1",
+      "username": "zlsdb",
+      "password": "0E4495349DCA4583C51EB5"
+    },
+    "zjdb": {
+      "host": "10.0.0.48",
+      "port": 1521,
+      "database": "server1",
+      "username": "zjdb",
+      "password": "7CC41CB422B71FBA1D7A9FF930"
+    }
+  }
+}
